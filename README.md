@@ -1,2 +1,1 @@
-# vanillaJS
-this is my project
+# this project is a website

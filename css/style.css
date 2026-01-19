@@ -1,0 +1,183 @@
+
+
+body{
+    
+    margin:0;
+    height: auto;
+
+}
+.menu-navigation{
+    
+    margin:0;
+    height:0px;
+}
+
+h1{
+    color: red;
+
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.first_container{
+    background-color: aquamarine;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: blue;
+    width: 50%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.first_container p{
+    text-align: justify;
+    margin: 20px;
+    
+}
+.secondContainer{
+    background-color: aquamarine;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: blue;
+    width: 50%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.secondTitle,.thirdTitle{
+    text-align: center;
+    align-items: center;
+    
+
+
+}
+ul{
+    list-style-type: none;
+}
+p{
+    font-weight: 700;
+}
+li{
+    font-size: 18px;
+}
+.form{
+    background-color:brown;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 50px;
+}
+form{
+    margin: 0px auto 0px auto;
+    
+    text-align: center;
+}
+.insideContainer{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.name{
+    margin-bottom: 20px;
+
+}
+.button{
+    margin: 20px 0px 20px 0px;
+    
+}
+.button input{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 1px blue solid;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.sidebar{
+    background-color:#30525C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    height: 94vh;
+    margin: 8px;
+    border-radius: 25px;
+    position: fixed;
+
+}
+.sidebar-title{
+    font-size: 32px;
+    padding: 10px;
+
+}
+.bar-item{
+    font-size: 24px;
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.icon{
+    width: auto;
+    height: 20px;
+    
+   
+    
+    
+}
+.background-color{
+    background-color: black;
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+input{
+    width: 100%;
+}
+/*desktop first*/
+@media screen and (max-width: 1366px){
+    section{
+        
+        background-color: yellow;
+    }
+    .sidebar{
+        height: 55vh;
+    }
+    /*.sidebar{
+        height: 50%;
+
+        
+    }*/
+    /*serch for the most effective screen sizes
+    for media queries*/
+    /*try to apply a width of 50% for every section container
+    to the screen sizes I get*/
+}
+
+
+
+/*tablet*/
+
